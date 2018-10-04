@@ -2,61 +2,75 @@ cmake_minimum_required(VERSION 3.1)
 
 project(heapsapp)
 
+include_directories(hashlink/src)
+
+# LibHL
+
 file(GLOB libhl
-    hashlink/src/std/array.c
-    hashlink/src/std/buffer.c
-    hashlink/src/std/bytes.c
-    hashlink/src/std/cast.c
-    hashlink/src/std/date.c
-    hashlink/src/std/error.c
-    hashlink/src/std/file.c
-    hashlink/src/std/fun.c
-    hashlink/src/std/maps.c
-    hashlink/src/std/math.c
-    hashlink/src/std/obj.c
-    hashlink/src/std/random.c
-    hashlink/src/std/regexp.c
-    hashlink/src/std/socket.c
-    hashlink/src/std/string.c
-    hashlink/src/std/sys.c
-    hashlink/src/std/types.c
-    hashlink/src/std/ucs2.c
-    hashlink/src/std/thread.c
-    hashlink/src/std/process.c
+    hashlink/src/std/*.c
 	hashlink/src/alloc.c
-
-    hashlink/std/sys_android.c
 )
+list(REMOVE_ITEM libhl ${CMAKE_CURRENT_SOURCE_DIR}/hashlink/src/std/debug.c)
 
-file(GLOB pcre
-	hashlink/include/pcre/pcre_chartables.c
-	hashlink/include/pcre/pcre_compile.c
-	hashlink/include/pcre/pcre_dfa_exec.c
-	hashlink/include/pcre/pcre_exec.c
-	hashlink/include/pcre/pcre_fullinfo.c
-	hashlink/include/pcre/pcre_globals.c
-	hashlink/include/pcre/pcre_newline.c
-	hashlink/include/pcre/pcre_string_utils.c
-	hashlink/include/pcre/pcre_tables.c
-	hashlink/include/pcre/pcre_ucd.c
-	hashlink/include/pcre/pcre_xclass.c
-	hashlink/include/pcre/pcre16_valid_utf16.c
-	hashlink/include/pcre/pcre16_ord2utf16.c
-)
+file(GLOB pcre hashlink/include/pcre/pcre*.c)
 
-include_directories(
-	out
-	hashlink/src
-	hashlink/include/pcre
-)
-
-add_library(heapsapp SHARED
+add_library(hl STATIC
 	${pcre}
 	${libhl}
-	out/main.c
+    hashlink/src/std/sys_android.c
 )
 
-target_link_libraries(heapsapp log)
+target_include_directories(hl PRIVATE hashlink/include/pcre)
+target_link_libraries(hl log)
 
+# FMT
 
+file(GLOB fmt hashlink/libs/fmt/*.c)
+file(GLOB png hashlink/include/png/*.c)
+file(GLOB zlib hashlink/include/zlib/*.c)
+file(GLOB vorbis hashlink/include/vorbis/*.c)
+file(GLOB mikkt hashlink/include/mikktspace/*.c)
 
+add_definitions(-DHL_NO_JPG)
+
+add_library(fmt.hdll STATIC
+	${fmt}
+	${png}
+	${zlib}
+	${vorbis}
+	${mikkt}
+)
+
+target_include_directories(fmt.hdll PRIVATE 
+	hashlink/include/png
+	hashlink/include/mikktspace
+	hashlink/include/vorbis
+	hashlink/include/zlib
+)
+
+# SDL
+
+add_subdirectory(sdl2)
+file(GLOB sdl hashlink/libs/sdl/*.c)
+add_library(sdl.hdll STATIC ${sdl})
+target_include_directories(sdl.hdll PUBLIC sdl2/include)
+target_link_libraries(sdl.hdll SDL2 EGL GLESv3)
+
+# OpenAL
+
+#add_subdirectory(openal)
+#file(GLOB openal hashlink/libs/openal/*.c)
+#add_library(openal.hdll STATIC ${openal})
+#target_include_directories(openal.hdll PUBLIC openal/include)
+#target_link_libraries(openal.hdll OpenAL)
+
+# UI
+
+file(GLOB ui hashlink/libs/ui/ui_stub.c)
+add_library(ui.hdll STATIC ${ui})
+
+# Heaps Application
+
+add_library(heapsapp SHARED out/main.c )
+target_include_directories(heapsapp PRIVATE out)
+target_link_libraries(heapsapp hl sdl.hdll fmt.hdll openal.hdll ui.hdll)
