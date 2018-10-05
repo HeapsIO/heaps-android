@@ -72,11 +72,9 @@ target_link_libraries(sdl.hdll SDL2 EGL GLESv3)
 
 # OpenAL
 
-#add_subdirectory(openal)
-#file(GLOB openal hashlink/libs/openal/*.c)
-#add_library(openal.hdll STATIC ${openal})
-#target_include_directories(openal.hdll PUBLIC openal/include)
-#target_link_libraries(openal.hdll OpenAL)
+file(GLOB openal hashlink/libs/openal/*.c)
+add_library(openal.hdll STATIC ${openal})
+target_include_directories(openal.hdll PUBLIC openal-soft/include)
 
 # UI
 
