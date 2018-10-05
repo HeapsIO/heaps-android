@@ -76,6 +76,7 @@ add_subdirectory(openal-soft)
 file(GLOB openal hashlink/libs/openal/*.c)
 add_library(openal.hdll STATIC ${openal})
 target_include_directories(openal.hdll PUBLIC openal-soft/include)
+target_link_libraries(openal.hdll OpenAL)
 
 # UI
 
