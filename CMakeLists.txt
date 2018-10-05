@@ -38,8 +38,6 @@ file(GLOB zlib hashlink/include/zlib/*.c)
 file(GLOB vorbis hashlink/include/vorbis/*.c)
 file(GLOB mikkt hashlink/include/mikktspace/*.c)
 
-add_definitions(-DHL_NO_JPG)
-
 add_library(fmt.hdll STATIC
 	${fmt}
 	${png}
@@ -49,10 +47,9 @@ add_library(fmt.hdll STATIC
 )
 
 add_dependencies(fmt.hdll turbojpeg)
-
 file(GLOB tj_include libjpeg-turbo/jni/vendor/libjpeg-turbo/libjpeg-turbo-*)
-
 target_link_libraries(fmt.hdll ${TJ_LIB})
+target_compile_definitions(fmt.hdll PRIVATE PNG_ARM_NEON_OPT=0) #disable Neon support for now
 
 target_include_directories(fmt.hdll PRIVATE 
 	hashlink/include/png
