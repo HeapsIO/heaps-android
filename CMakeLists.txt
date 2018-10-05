@@ -69,6 +69,7 @@ target_link_libraries(sdl.hdll SDL2 EGL GLESv3)
 
 # OpenAL
 
+configure_file(${CMAKE_CURRENT_SOURCE_DIR}/openal-nativetools/CMakeLists.txt ${CMAKE_CURRENT_SOURCE_DIR}/openal-soft COPYONLY)
 add_subdirectory(openal-soft)
 file(GLOB openal hashlink/libs/openal/*.c)
 add_library(openal.hdll STATIC ${openal})
