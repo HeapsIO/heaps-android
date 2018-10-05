@@ -25,7 +25,12 @@ target_link_libraries(hl log)
 
 # FMT
 
-add_custom_target(turbojpeg ${ANDROID_NDK}/ndk-build APP_ABI=armeabi-v7a WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/libjpeg-turbo)
+set(TJ_LIB ${CMAKE_CURRENT_SOURCE_DIR}/libjpeg-turbo/obj/local/${ANDROID_ABI}/libjpeg-turbo.a)
+add_custom_target(turbojpeg
+	${ANDROID_NDK}/ndk-build APP_ABI=${ANDROID_ABI}  APP_PLATFORM=${ANDROID_PLATFORM}
+	WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/libjpeg-turbo
+	BYPRODUCTS ${TJ_LIB}
+)
 
 file(GLOB fmt hashlink/libs/fmt/*.c)
 file(GLOB png hashlink/include/png/*.c)
@@ -46,6 +51,8 @@ add_library(fmt.hdll STATIC
 add_dependencies(fmt.hdll turbojpeg)
 
 file(GLOB tj_include libjpeg-turbo/jni/vendor/libjpeg-turbo/libjpeg-turbo-*)
+
+target_link_libraries(fmt.hdll ${TJ_LIB})
 
 target_include_directories(fmt.hdll PRIVATE 
 	hashlink/include/png
