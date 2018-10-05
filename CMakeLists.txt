@@ -25,6 +25,8 @@ target_link_libraries(hl log)
 
 # FMT
 
+add_custom_target(turbojpeg ${ANDROID_NDK}/ndk-build APP_ABI=armeabi-v7a WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/libjpeg-turbo)
+
 file(GLOB fmt hashlink/libs/fmt/*.c)
 file(GLOB png hashlink/include/png/*.c)
 file(GLOB zlib hashlink/include/zlib/*.c)
@@ -41,11 +43,16 @@ add_library(fmt.hdll STATIC
 	${mikkt}
 )
 
+add_dependencies(fmt.hdll turbojpeg)
+
+file(GLOB tj_include libjpeg-turbo/jni/vendor/libjpeg-turbo/libjpeg-turbo-*)
+
 target_include_directories(fmt.hdll PRIVATE 
 	hashlink/include/png
 	hashlink/include/mikktspace
 	hashlink/include/vorbis
 	hashlink/include/zlib
+	${tj_include}
 )
 
 # SDL

@@ -5,3 +5,6 @@
 	path = sdl2
 	url = https://github.com/spurious/SDL-mirror.git
 	branch = release-2.0.8
+[submodule "libjpeg-turbo"]
+	path = libjpeg-turbo
+	url = https://github.com/openstf/android-libjpeg-turbo.git
