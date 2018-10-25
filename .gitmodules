@@ -11,3 +11,6 @@
 [submodule "openal-soft"]
 	path = openal-soft
 	url = https://github.com/kcat/openal-soft.git
+[submodule "heaps-android-app"]
+	path = heaps-android-app
+	url = https://github.com/rtissera/heaps-android-app.git

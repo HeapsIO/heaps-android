@@ -28,7 +28,8 @@ target_link_libraries(hl log)
 set(TJ_LIB ${CMAKE_CURRENT_SOURCE_DIR}/libjpeg-turbo/obj/local/${ANDROID_ABI}/libjpeg-turbo.a)
 add_custom_target(turbojpeg
 	${ANDROID_NDK}/ndk-build APP_ABI=${ANDROID_ABI}  APP_PLATFORM=${ANDROID_PLATFORM}
-	WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}/libjpeg-turbo
+	NDK_PROJECT_PATH=./libjpeg-turbo
+	WORKING_DIRECTORY ${CMAKE_CURRENT_LIST_DIR}
 	BYPRODUCTS ${TJ_LIB}
 )
 
@@ -65,7 +66,7 @@ add_subdirectory(sdl2)
 file(GLOB sdl hashlink/libs/sdl/*.c)
 add_library(sdl.hdll STATIC ${sdl})
 target_include_directories(sdl.hdll PUBLIC sdl2/include)
-target_link_libraries(sdl.hdll SDL2 EGL GLESv3)
+target_link_libraries(sdl.hdll SDL2 SDL2main EGL GLESv3)
 
 # OpenAL
 
