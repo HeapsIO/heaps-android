@@ -9,6 +9,7 @@ include_directories(hashlink/src)
 file(GLOB libhl
     hashlink/src/std/*.c
 	hashlink/src/alloc.c
+	hashlink/src/gc.c
 )
 list(REMOVE_ITEM libhl ${CMAKE_CURRENT_SOURCE_DIR}/hashlink/src/std/debug.c)
 
@@ -38,6 +39,7 @@ file(GLOB png hashlink/include/png/*.c)
 file(GLOB zlib hashlink/include/zlib/*.c)
 file(GLOB vorbis hashlink/include/vorbis/*.c)
 file(GLOB mikkt hashlink/include/mikktspace/*.c)
+file(GLOB minimp3 hashlink/include/minimp3/*.c)
 
 add_library(fmt.hdll STATIC
 	${fmt}
@@ -52,9 +54,10 @@ file(GLOB tj_include libjpeg-turbo/jni/vendor/libjpeg-turbo/libjpeg-turbo-*)
 target_link_libraries(fmt.hdll ${TJ_LIB})
 target_compile_definitions(fmt.hdll PRIVATE PNG_ARM_NEON_OPT=0) #disable Neon support for now
 
-target_include_directories(fmt.hdll PRIVATE 
+target_include_directories(fmt.hdll PRIVATE
 	hashlink/include/png
 	hashlink/include/mikktspace
+	hashlink/include/minimp3
 	hashlink/include/vorbis
 	hashlink/include/zlib
 	${tj_include}
