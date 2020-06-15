@@ -13,7 +13,7 @@ init:
 	chmod u+x /usr/local/bin/gradlew
 
 build:
-	gradlew buildDebug -p heaps-android-app
+	gradlew build -p heaps-android-app
 
 install:
 	adb install heaps-android-app/heapsapp/build/outputs/apk/debug/heapsapp-debug.apk
