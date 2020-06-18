@@ -15,7 +15,7 @@ init-root:
 	haxelib setup /usr/local/lib/haxe/lib
 
 init-windows:
-	choco install haxe android-studio
+	choco install haxe android-sdk
 
 init-darwin:
 	brew install haxe
