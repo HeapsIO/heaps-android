@@ -3,10 +3,10 @@
 all: build install
 
 ifeq ($(OS),Windows_NT)
-init: init-root init-widows
+init: init-windows init-root
 endif
 ifeq ($(shell uname -s),Darwin)
-init: init-root init-darwin
+init: init-darwin init-root
 endif
 
 init-root:
