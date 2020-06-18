@@ -28,7 +28,7 @@ target_link_libraries(hl log)
 
 set(TJ_LIB ${CMAKE_CURRENT_SOURCE_DIR}/libjpeg-turbo/obj/local/${ANDROID_ABI}/libjpeg-turbo.a)
 add_custom_target(turbojpeg
-	${ANDROID_NDK}/ndk-build APP_ABI=${ANDROID_ABI}  APP_PLATFORM=${ANDROID_PLATFORM}
+	${ANDROID_NDK}/ndk-build APP_ABI=${ANDROID_ABI} APP_PLATFORM=${ANDROID_PLATFORM}
 	NDK_PROJECT_PATH=./libjpeg-turbo
 	WORKING_DIRECTORY ${CMAKE_CURRENT_LIST_DIR}
 	BYPRODUCTS ${TJ_LIB}
@@ -87,6 +87,6 @@ add_library(ui.hdll STATIC ${ui})
 
 # Heaps Application
 
-add_library(heapsapp SHARED out/main.c )
+add_library(heapsapp SHARED out/main.c jni.c)
 target_include_directories(heapsapp PRIVATE out)
 target_link_libraries(heapsapp hl sdl.hdll fmt.hdll openal.hdll ui.hdll)

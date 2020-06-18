@@ -14,5 +14,5 @@ make init
 
 ```sh
 make heaps-world
-make # (make build && make install)
+make # make build && make install
 ```

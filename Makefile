@@ -2,12 +2,25 @@
 
 all: build install
 
-init:
-	brew install haxe
-	brew bundle install --file hashlink/Brewfile --no-lock
+ifeq ($(OS),Windows_NT)
+init: init-root init-widows
+endif
+ifeq ($(shell uname -s),Darwin)
+init: init-root init-darwin
+endif
+
+init-root:
 	make -C hashlink
 	make install -C hashlink
 	haxelib setup /usr/local/lib/haxe/lib
+
+init-windows:
+	choco install haxe android-studio
+
+init-darwin:
+	brew install haxe
+	brew bundle install --file hashlink/Brewfile --no-lock
+
 	brew cask install android-studio
 	ln -sf /Applications/Android\ Studio.app/Contents/plugins/android/lib/templates/gradle/wrapper/gradlew /usr/local/bin
 	chmod u+x /usr/local/bin/gradlew
