@@ -15,24 +15,21 @@ init-root:
 	haxelib setup /usr/local/lib/haxe/lib
 
 init-windows:
-	choco install haxe android-sdk
+	choco install haxe openal ffmpeg android-sdk
 
 init-darwin:
 	brew install haxe
 	brew bundle install --file hashlink/Brewfile --no-lock
-
 	brew cask install android-studio
-	ln -sf /Applications/Android\ Studio.app/Contents/plugins/android/lib/templates/gradle/wrapper/gradlew /usr/local/bin
-	chmod u+x /usr/local/bin/gradlew
 
 build:
-	gradlew build -p heaps-android-app
+	/Applications/Android\ Studio.app/Contents/plugins/android/lib/templates/gradle/wrapper/gradlew build -p heaps-android-app
 
 install:
 	adb install heaps-android-app/heapsapp/build/outputs/apk/debug/heapsapp-debug.apk
 
 clean:
-	gradlew clean -p heaps-android-app
+	/Applications/Android\ Studio.app/Contents/plugins/android/lib/templates/gradle/wrapper/gradlew clean -p heaps-android-app
 
 heaps-world: heaps-world-hl heaps-world-pak
 
