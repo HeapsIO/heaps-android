@@ -1,4 +1,4 @@
-name: android
+name: android-macOS
 on:
   pull_request:
   push:
