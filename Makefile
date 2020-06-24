@@ -9,6 +9,7 @@ else ifeq ($(shell uname -s),Darwin)
 	brew install haxe
 	brew bundle install --file hashlink/Brewfile --no-lock
 	brew cask install android-studio
+	chmod u+x /Applications/Android\ Studio.app/Contents/plugins/android/lib/templates/gradle/wrapper/gradlew
 endif
 	make -C hashlink
 	make install -C hashlink
