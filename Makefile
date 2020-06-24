@@ -29,7 +29,7 @@ ifeq ($(OS),Windows_NT)
 gradle:
 	cd heaps-android-app && gradlew.bat $(CMD)
 gen-local:
-	echo "sdk.dir=C:\\Android\\android-sdk\nndk.dir=C:\\Android\\android-ndk-r21d" > heaps-android-app/local.properties
+	(echo sdk.dir=C:\\Android\\android-sdk&& echo ndk.dir=C:\\Android\\android-ndk-r21d) > heaps-android-app/local.properties
 else ifeq ($(shell uname -s),Darwin)
 gradle:
 	/Applications/Android\ Studio.app/Contents/plugins/android/lib/templates/gradle/wrapper/gradlew $(CMD) -p heaps-android-app
