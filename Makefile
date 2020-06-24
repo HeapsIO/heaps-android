@@ -3,10 +3,6 @@
 all: build install
 
 init:
-	make -C hashlink
-	make install -C hashlink
-	haxelib setup /usr/local/lib/haxe/lib
-	make gen-local
 ifeq ($(OS),Windows_NT)
 	choco install haxe openal ffmpeg android-sdk android-ndk
 else ifeq ($(shell uname -s),Darwin)
@@ -14,6 +10,10 @@ else ifeq ($(shell uname -s),Darwin)
 	brew bundle install --file hashlink/Brewfile --no-lock
 	brew cask install android-studio
 endif
+	make -C hashlink
+	make install -C hashlink
+	haxelib setup /usr/local/lib/haxe/lib
+	make gen-local
 
 build:
 	CMD=buildDebug make gradle
