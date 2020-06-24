@@ -35,7 +35,7 @@ else ifeq ($(shell uname -s),Darwin)
 gradle:
 	/Applications/Android\ Studio.app/Contents/plugins/android/lib/templates/gradle/wrapper/gradlew $(CMD) -p heaps-android-app
 gen-local:
-	echo "sdk.dir=$(HOME)/Library/Android/sdk\nndk.dir=$(HOME)/Library/Android/sdk/ndk/21.3.6528147/" > heaps-android-app/local.properties
+	echo "sdk.dir=$(HOME)/Library/Android/sdk" > heaps-android-app/local.properties
 endif
 
 heaps-world: heaps-world-hl heaps-world-pak
