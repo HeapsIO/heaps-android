@@ -5,7 +5,7 @@
 ## Setup
 
 ```sh
-git clone https://github.com/HeapsIO/heaps-android
+git clone --recursive https://github.com/HeapsIO/heaps-android
 cd heaps-android
 make init
 ```
