@@ -1,0 +1,2766 @@
+The target system is: Android - 1 - x86_64
+The host system is: Darwin - 19.5.0 - x86_64
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_ac486"
+[1/2] Building C object CMakeFiles/cmTC_ac486.dir/testCCompiler.c.o
+[2/2] Linking C executable cmTC_ac486
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_c3d71"
+[1/2] Building C object CMakeFiles/cmTC_c3d71.dir/CMakeCCompilerABI.c.o
+[2/2] Linking C executable cmTC_c3d71
+Android (6454773 based on r365631c2) clang version 9.0.8 (https://android.googlesource.com/toolchain/llvm-project 98c855489587874b2a325e7a516b99d838599c6f) (based on LLVM 9.0.8svn)
+Target: x86_64-none-linux-android21
+Thread model: posix
+InstalledDir: /Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/bin
+Found candidate GCC installation: /Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x
+Found candidate GCC installation: /Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x
+Selected GCC installation: /Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/bin/ld" --sysroot=/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z noexecstack --warn-shared-textrel -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_x86_64 -dynamic-linker /system/bin/linker64 -o cmTC_c3d71 /Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtbegin_dynamic.o -L/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.8/lib/linux/x86_64 -L/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x -L/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib/../lib64 -L/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21 -L/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android -L/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib -L/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_c3d71.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtend_android.o
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(x86_64-linux-android-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_c3d71"]
+  ignore line: [[1/2] Building C object CMakeFiles/cmTC_c3d71.dir/CMakeCCompilerABI.c.o]
+  ignore line: [[2/2] Linking C executable cmTC_c3d71]
+  ignore line: [Android (6454773 based on r365631c2) clang version 9.0.8 (https://android.googlesource.com/toolchain/llvm-project 98c855489587874b2a325e7a516b99d838599c6f) (based on LLVM 9.0.8svn)]
+  ignore line: [Target: x86_64-none-linux-android21]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/bin]
+  ignore line: [Found candidate GCC installation: /Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x]
+  ignore line: [Found candidate GCC installation: /Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x]
+  ignore line: [Selected GCC installation: /Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  link line: [ "/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/bin/ld" --sysroot=/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z noexecstack --warn-shared-textrel -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_x86_64 -dynamic-linker /system/bin/linker64 -o cmTC_c3d71 /Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtbegin_dynamic.o -L/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.8/lib/linux/x86_64 -L/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x -L/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib/../lib64 -L/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21 -L/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android -L/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib -L/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_c3d71.dir/CMakeCCompilerABI.c.o -lgcc -ldl -lc -lgcc -ldl /Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtend_android.o]
+    arg [/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/bin/ld] ==> ignore
+    arg [--sysroot=/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker64] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_c3d71] ==> ignore
+    arg [/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtbegin_dynamic.o] ==> ignore
+    arg [-L/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.8/lib/linux/x86_64] ==> dir [/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.8/lib/linux/x86_64]
+    arg [-L/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x] ==> dir [/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x]
+    arg [-L/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib/../lib64] ==> dir [/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib/../lib64]
+    arg [-L/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21] ==> dir [/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21]
+    arg [-L/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android] ==> dir [/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android]
+    arg [-L/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib] ==> dir [/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib]
+    arg [-L/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib] ==> dir [/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib]
+    arg [--exclude-libs] ==> ignore
+    arg [libgcc.a] ==> ignore
+    arg [--exclude-libs] ==> ignore
+    arg [libgcc_real.a] ==> ignore
+    arg [--exclude-libs] ==> ignore
+    arg [libatomic.a] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [CMakeFiles/cmTC_c3d71.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtend_android.o] ==> ignore
+  collapse library dir [/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.8/lib/linux/x86_64] ==> [/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.8/lib/linux/x86_64]
+  collapse library dir [/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x] ==> [/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x]
+  collapse library dir [/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib/../lib64] ==> [/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/x86_64-linux-android/lib64]
+  collapse library dir [/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21] ==> [/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21]
+  collapse library dir [/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android] ==> [/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android]
+  collapse library dir [/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib] ==> [/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/x86_64-linux-android/lib]
+  collapse library dir [/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib] ==> [/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib]
+  implicit libs: [gcc;dl;c;gcc;dl]
+  implicit dirs: [/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.8/lib/linux/x86_64;/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x;/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/x86_64-linux-android/lib64;/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21;/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android;/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/x86_64-linux-android/lib;/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_cc014"
+[1/2] Building C object CMakeFiles/cmTC_cc014.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_cc014
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_0f458"
+[1/2] Building C object CMakeFiles/cmTC_0f458.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_0f458
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_4a0f8"
+[1/2] Building C object CMakeFiles/cmTC_4a0f8.dir/feature_tests.c.o
+[2/2] Linking C executable cmTC_4a0f8
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_55871"
+[1/2] Building CXX object CMakeFiles/cmTC_55871.dir/testCXXCompiler.cxx.o
+[2/2] Linking CXX executable cmTC_55871
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_14d4c"
+[1/2] Building CXX object CMakeFiles/cmTC_14d4c.dir/CMakeCXXCompilerABI.cpp.o
+[2/2] Linking CXX executable cmTC_14d4c
+Android (6454773 based on r365631c2) clang version 9.0.8 (https://android.googlesource.com/toolchain/llvm-project 98c855489587874b2a325e7a516b99d838599c6f) (based on LLVM 9.0.8svn)
+Target: x86_64-none-linux-android21
+Thread model: posix
+InstalledDir: /Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/bin
+Found candidate GCC installation: /Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x
+Found candidate GCC installation: /Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x
+Selected GCC installation: /Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x
+Candidate multilib: .;@m64
+Selected multilib: .;@m64
+ "/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/bin/ld" --sysroot=/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z noexecstack --warn-shared-textrel -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_x86_64 -dynamic-linker /system/bin/linker64 -o cmTC_14d4c /Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtbegin_dynamic.o -L/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.8/lib/linux/x86_64 -L/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x -L/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib/../lib64 -L/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21 -L/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android -L/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib -L/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_14d4c.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm -lgcc -ldl -lc -lgcc -ldl /Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtend_android.o
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(x86_64-linux-android-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_14d4c"]
+  ignore line: [[1/2] Building CXX object CMakeFiles/cmTC_14d4c.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [[2/2] Linking CXX executable cmTC_14d4c]
+  ignore line: [Android (6454773 based on r365631c2) clang version 9.0.8 (https://android.googlesource.com/toolchain/llvm-project 98c855489587874b2a325e7a516b99d838599c6f) (based on LLVM 9.0.8svn)]
+  ignore line: [Target: x86_64-none-linux-android21]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/bin]
+  ignore line: [Found candidate GCC installation: /Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/i686-linux-android/4.9.x]
+  ignore line: [Found candidate GCC installation: /Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x]
+  ignore line: [Selected GCC installation: /Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x]
+  ignore line: [Candidate multilib: .]
+  ignore line: [@m64]
+  ignore line: [Selected multilib: .]
+  ignore line: [@m64]
+  link line: [ "/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/bin/ld" --sysroot=/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -pie -z noexecstack --warn-shared-textrel -z now -z relro --hash-style=both --enable-new-dtags --eh-frame-hdr -m elf_x86_64 -dynamic-linker /system/bin/linker64 -o cmTC_14d4c /Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtbegin_dynamic.o -L/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.8/lib/linux/x86_64 -L/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x -L/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib/../lib64 -L/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21 -L/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android -L/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib -L/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib --exclude-libs libgcc.a --exclude-libs libgcc_real.a --exclude-libs libatomic.a --build-id --fatal-warnings --no-undefined --gc-sections CMakeFiles/cmTC_14d4c.dir/CMakeCXXCompilerABI.cpp.o -Bstatic -lc++ -Bdynamic -lm -lgcc -ldl -lc -lgcc -ldl /Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtend_android.o]
+    arg [/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/bin/ld] ==> ignore
+    arg [--sysroot=/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-znoexecstack] ==> ignore
+    arg [--warn-shared-textrel] ==> ignore
+    arg [-znow] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [--hash-style=both] ==> ignore
+    arg [--enable-new-dtags] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/system/bin/linker64] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_14d4c] ==> ignore
+    arg [/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtbegin_dynamic.o] ==> ignore
+    arg [-L/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.8/lib/linux/x86_64] ==> dir [/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.8/lib/linux/x86_64]
+    arg [-L/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x] ==> dir [/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x]
+    arg [-L/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib/../lib64] ==> dir [/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib/../lib64]
+    arg [-L/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21] ==> dir [/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21]
+    arg [-L/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android] ==> dir [/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android]
+    arg [-L/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib] ==> dir [/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib]
+    arg [-L/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib] ==> dir [/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib]
+    arg [--exclude-libs] ==> ignore
+    arg [libgcc.a] ==> ignore
+    arg [--exclude-libs] ==> ignore
+    arg [libgcc_real.a] ==> ignore
+    arg [--exclude-libs] ==> ignore
+    arg [libatomic.a] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--fatal-warnings] ==> ignore
+    arg [--no-undefined] ==> ignore
+    arg [--gc-sections] ==> ignore
+    arg [CMakeFiles/cmTC_14d4c.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-Bstatic] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-Bdynamic] ==> ignore
+    arg [-lm] ==> lib [m]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-ldl] ==> lib [dl]
+    arg [/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21/crtend_android.o] ==> ignore
+  collapse library dir [/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.8/lib/linux/x86_64] ==> [/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.8/lib/linux/x86_64]
+  collapse library dir [/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x] ==> [/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x]
+  collapse library dir [/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib/../lib64] ==> [/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/x86_64-linux-android/lib64]
+  collapse library dir [/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21] ==> [/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21]
+  collapse library dir [/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android] ==> [/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android]
+  collapse library dir [/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x/../../../../x86_64-linux-android/lib] ==> [/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/x86_64-linux-android/lib]
+  collapse library dir [/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib] ==> [/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib]
+  implicit libs: [c++;m;gcc;dl;c;gcc;dl]
+  implicit dirs: [/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib64/clang/9.0.8/lib/linux/x86_64;/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/lib/gcc/x86_64-linux-android/4.9.x;/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/x86_64-linux-android/lib64;/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/21;/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android;/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/x86_64-linux-android/lib;/Users/qkdreyer/Library/Android/sdk/ndk/21.3.6528147/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_bfed0"
+[1/2] Building CXX object CMakeFiles/cmTC_bfed0.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_bfed0
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_fefc5"
+[1/2] Building CXX object CMakeFiles/cmTC_fefc5.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_fefc5
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_1f007"
+[1/2] Building CXX object CMakeFiles/cmTC_1f007.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_1f007
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_3df26"
+[1/2] Building CXX object CMakeFiles/cmTC_3df26.dir/feature_tests.cxx.o
+[2/2] Linking CXX executable cmTC_3df26
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Performing C SOURCE FILE Test HAVE_GCC_WALL succeeded with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_7d15d"
+[1/2] Building C object CMakeFiles/cmTC_7d15d.dir/src.c.o
+[2/2] Linking C executable cmTC_7d15d
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_WDECLARATION_AFTER_STATEMENT succeeded with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_f41ee"
+[1/2] Building C object CMakeFiles/cmTC_f41ee.dir/src.c.o
+[2/2] Linking C executable cmTC_f41ee
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_WERROR_DECLARATION_AFTER_STATEMENT succeeded with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_38023"
+[1/2] Building C object CMakeFiles/cmTC_38023.dir/src.c.o
+[2/2] Linking C executable cmTC_38023
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_ATOMICS succeeded with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_045b8"
+[1/2] Building C object CMakeFiles/cmTC_045b8.dir/src.c.o
+[2/2] Linking C executable cmTC_045b8
+
+Source file was:
+int main(int argc, char **argv) {
+        int a;
+        void *x, *y, *z;
+        __sync_lock_test_and_set(&a, 4);
+        __sync_lock_test_and_set(&x, y);
+        __sync_fetch_and_add(&a, 1);
+        __sync_bool_compare_and_swap(&a, 5, 10);
+        __sync_bool_compare_and_swap(&x, y, z); }
+Performing C SOURCE FILE Test HAVE_GCC_FVISIBILITY succeeded with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_da159"
+[1/2] Building C object CMakeFiles/cmTC_da159.dir/src.c.o
+[2/2] Linking C executable cmTC_da159
+
+Source file was:
+
+      #if !defined(__GNUC__) || __GNUC__ < 4
+      #error SDL only uses visibility attributes in GCC 4 or newer
+      #endif
+      int main(int argc, char **argv) {}
+Performing C SOURCE FILE Test HAVE_GCC_WSHADOW succeeded with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_eb51e"
+[1/2] Building C object CMakeFiles/cmTC_eb51e.dir/src.c.o
+[2/2] Linking C executable cmTC_eb51e
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_NO_UNDEFINED succeeded with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_20f9c"
+[1/2] Building C object CMakeFiles/cmTC_20f9c.dir/src.c.o
+clang: warning: -Wl,--no-undefined: 'linker' input unused [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_20f9c
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_MMX succeeded with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_85690"
+[1/2] Building C object CMakeFiles/cmTC_85690.dir/src.c.o
+[2/2] Linking C executable cmTC_85690
+
+Source file was:
+
+          #ifdef __MINGW32__
+          #include <_mingw.h>
+          #ifdef __MINGW64_VERSION_MAJOR
+          #include <intrin.h>
+          #else
+          #include <mmintrin.h>
+          #endif
+          #else
+          #include <mmintrin.h>
+          #endif
+          #ifndef __MMX__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) { }
+Performing C SOURCE FILE Test HAVE_3DNOW succeeded with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_425b2"
+[1/2] Building C object CMakeFiles/cmTC_425b2.dir/src.c.o
+[2/2] Linking C executable cmTC_425b2
+
+Source file was:
+
+          #include <mm3dnow.h>
+          #ifndef __3dNOW__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) {
+            void *p = 0;
+            _m_prefetch(p);
+          }
+Performing C SOURCE FILE Test HAVE_SSE succeeded with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_fdfe3"
+[1/2] Building C object CMakeFiles/cmTC_fdfe3.dir/src.c.o
+[2/2] Linking C executable cmTC_fdfe3
+
+Source file was:
+
+          #ifdef __MINGW32__
+          #include <_mingw.h>
+          #ifdef __MINGW64_VERSION_MAJOR
+          #include <intrin.h>
+          #else
+          #include <xmmintrin.h>
+          #endif
+          #else
+          #include <xmmintrin.h>
+          #endif
+          #ifndef __SSE__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) { }
+Performing C SOURCE FILE Test HAVE_SSE2 succeeded with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_1e7cd"
+[1/2] Building C object CMakeFiles/cmTC_1e7cd.dir/src.c.o
+[2/2] Linking C executable cmTC_1e7cd
+
+Source file was:
+
+          #ifdef __MINGW32__
+          #include <_mingw.h>
+          #ifdef __MINGW64_VERSION_MAJOR
+          #include <intrin.h>
+          #else
+          #include <emmintrin.h>
+          #endif
+          #else
+          #include <emmintrin.h>
+          #endif
+          #ifndef __SSE2__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) { }
+Performing C SOURCE FILE Test HAVE_SSE3 succeeded with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_76719"
+[1/2] Building C object CMakeFiles/cmTC_76719.dir/src.c.o
+[2/2] Linking C executable cmTC_76719
+
+Source file was:
+
+          #ifdef __MINGW32__
+          #include <_mingw.h>
+          #ifdef __MINGW64_VERSION_MAJOR
+          #include <intrin.h>
+          #else
+          #include <pmmintrin.h>
+          #endif
+          #else
+          #include <pmmintrin.h>
+          #endif
+          #ifndef __SSE3__
+          #error Assembler CPP flag not enabled
+          #endif
+          int main(int argc, char **argv) { }
+Determining if the include file immintrin.h exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_38e21"
+[1/2] Building C object CMakeFiles/cmTC_38e21.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_38e21
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_0f5c1"
+[1/2] Building C object CMakeFiles/cmTC_0f5c1.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_0f5c1
+
+
+Determining if the include file stdio.h exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_a0112"
+[1/2] Building C object CMakeFiles/cmTC_a0112.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_a0112
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_8558b"
+[1/2] Building C object CMakeFiles/cmTC_8558b.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_8558b
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_a0713"
+[1/2] Building C object CMakeFiles/cmTC_a0713.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_a0713
+
+
+Determining if the include file stdarg.h exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_2c6d3"
+[1/2] Building C object CMakeFiles/cmTC_2c6d3.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_2c6d3
+
+
+Determining if the include file malloc.h exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_cccf0"
+[1/2] Building C object CMakeFiles/cmTC_cccf0.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_cccf0
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_35958"
+[1/2] Building C object CMakeFiles/cmTC_35958.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_35958
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_ab07c"
+[1/2] Building C object CMakeFiles/cmTC_ab07c.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_ab07c
+
+
+Determining if the include file limits.h exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_4b031"
+[1/2] Building C object CMakeFiles/cmTC_4b031.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_4b031
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_e72a9"
+[1/2] Building C object CMakeFiles/cmTC_e72a9.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_e72a9
+
+
+Determining if the include file wchar.h exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_72ba2"
+[1/2] Building C object CMakeFiles/cmTC_72ba2.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_72ba2
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_dc0a3"
+[1/2] Building C object CMakeFiles/cmTC_dc0a3.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_dc0a3
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_9b164"
+[1/2] Building C object CMakeFiles/cmTC_9b164.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_9b164
+
+
+Determining if the include file ctype.h exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_7c079"
+[1/2] Building C object CMakeFiles/cmTC_7c079.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_7c079
+
+
+Determining if the include file math.h exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_85ec3"
+[1/2] Building C object CMakeFiles/cmTC_85ec3.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_85ec3
+
+
+Determining if the include file iconv.h exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_93320"
+[1/2] Building C object CMakeFiles/cmTC_93320.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_93320
+
+
+Determining if the include file signal.h exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_e1927"
+[1/2] Building C object CMakeFiles/cmTC_e1927.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_e1927
+
+
+Determining if files dlfcn.h;stdint.h;stddef.h;inttypes.h;stdlib.h;strings.h;string.h;float.h exist passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_1da94"
+[1/2] Building C object CMakeFiles/cmTC_1da94.dir/CheckIncludeFiles.c.o
+[2/2] Linking C executable cmTC_1da94
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_6ed6b"
+[1/2] Building C object CMakeFiles/cmTC_6ed6b.dir/SIZEOF_SIZE_T.c.o
+[2/2] Linking C executable cmTC_6ed6b
+
+
+Determining if the M_PI exist passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_b16ef"
+[1/2] Building C object CMakeFiles/cmTC_b16ef.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_b16ef
+
+File /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef M_PI
+  return ((int*)(&M_PI))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test HAVE_MPROTECT succeeded with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_334fa"
+[1/2] Building C object CMakeFiles/cmTC_334fa.dir/src.c.o
+[2/2] Linking C executable cmTC_334fa
+
+Source file was:
+#include <sys/types.h>
+                             #include <sys/mman.h>
+                             int main() { }
+Determining if the function strtod exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_7a76c"
+[1/2] Building C object CMakeFiles/cmTC_7a76c.dir/CheckFunctionExists.c.o
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strtod' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strtod
+                              ^
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: 'strtod' is a builtin with type 'double (const char *, char **)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strtod
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_7a76c
+
+
+Determining if the function malloc exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_6d024"
+[1/2] Building C object CMakeFiles/cmTC_6d024.dir/CheckFunctionExists.c.o
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'malloc' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS malloc
+                              ^
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: 'malloc' is a builtin with type 'void *(unsigned long)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS malloc
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_6d024
+
+
+Determining if the function calloc exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_48aa5"
+[1/2] Building C object CMakeFiles/cmTC_48aa5.dir/CheckFunctionExists.c.o
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'calloc' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS calloc
+                              ^
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: 'calloc' is a builtin with type 'void *(unsigned long, unsigned long)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS calloc
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_48aa5
+
+
+Determining if the function realloc exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_37dc3"
+[1/2] Building C object CMakeFiles/cmTC_37dc3.dir/CheckFunctionExists.c.o
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'realloc' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS realloc
+                              ^
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: 'realloc' is a builtin with type 'void *(void *, unsigned long)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS realloc
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_37dc3
+
+
+Determining if the function free exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_fbb87"
+[1/2] Building C object CMakeFiles/cmTC_fbb87.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_fbb87
+
+
+Determining if the function getenv exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_510d4"
+[1/2] Building C object CMakeFiles/cmTC_510d4.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_510d4
+
+
+Determining if the function setenv exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_8a55a"
+[1/2] Building C object CMakeFiles/cmTC_8a55a.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_8a55a
+
+
+Determining if the function putenv exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_ddf6a"
+[1/2] Building C object CMakeFiles/cmTC_ddf6a.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_ddf6a
+
+
+Determining if the function unsetenv exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_104a2"
+[1/2] Building C object CMakeFiles/cmTC_104a2.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_104a2
+
+
+Determining if the function qsort exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_b2fc1"
+[1/2] Building C object CMakeFiles/cmTC_b2fc1.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_b2fc1
+
+
+Determining if the function abs exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_b9a73"
+[1/2] Building C object CMakeFiles/cmTC_b9a73.dir/CheckFunctionExists.c.o
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'abs' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS abs
+                              ^
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: 'abs' is a builtin with type 'int (int)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS abs
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_b9a73
+
+
+Determining if the function memset exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_6ca48"
+[1/2] Building C object CMakeFiles/cmTC_6ca48.dir/CheckFunctionExists.c.o
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'memset' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memset
+                              ^
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: 'memset' is a builtin with type 'void *(void *, int, unsigned long)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memset
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_6ca48
+
+
+Determining if the function memcpy exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_9dbf1"
+[1/2] Building C object CMakeFiles/cmTC_9dbf1.dir/CheckFunctionExists.c.o
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'memcpy' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memcpy
+                              ^
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: 'memcpy' is a builtin with type 'void *(void *, const void *, unsigned long)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memcpy
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_9dbf1
+
+
+Determining if the function memmove exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_d788e"
+[1/2] Building C object CMakeFiles/cmTC_d788e.dir/CheckFunctionExists.c.o
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'memmove' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memmove
+                              ^
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: 'memmove' is a builtin with type 'void *(void *, const void *, unsigned long)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memmove
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_d788e
+
+
+Determining if the function memcmp exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_4efee"
+[1/2] Building C object CMakeFiles/cmTC_4efee.dir/CheckFunctionExists.c.o
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'memcmp' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memcmp
+                              ^
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: 'memcmp' is a builtin with type 'int (const void *, const void *, unsigned long)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS memcmp
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_4efee
+
+
+Determining if the function strlen exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_33da3"
+[1/2] Building C object CMakeFiles/cmTC_33da3.dir/CheckFunctionExists.c.o
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strlen' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strlen
+                              ^
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: 'strlen' is a builtin with type 'unsigned long (const char *)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strlen
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_33da3
+
+
+Determining if the function strlcpy exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_19cff"
+[1/2] Building C object CMakeFiles/cmTC_19cff.dir/CheckFunctionExists.c.o
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strlcpy' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strlcpy
+                              ^
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: 'strlcpy' is a builtin with type 'unsigned long (char *, const char *, unsigned long)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strlcpy
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_19cff
+
+
+Determining if the function strlcat exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_26a5f"
+[1/2] Building C object CMakeFiles/cmTC_26a5f.dir/CheckFunctionExists.c.o
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strlcat' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strlcat
+                              ^
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: 'strlcat' is a builtin with type 'unsigned long (char *, const char *, unsigned long)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strlcat
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_26a5f
+
+
+Determining if the function strchr exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_55698"
+[1/2] Building C object CMakeFiles/cmTC_55698.dir/CheckFunctionExists.c.o
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strchr' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strchr
+                              ^
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: 'strchr' is a builtin with type 'char *(const char *, int)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strchr
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_55698
+
+
+Determining if the function strrchr exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_43570"
+[1/2] Building C object CMakeFiles/cmTC_43570.dir/CheckFunctionExists.c.o
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strrchr' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strrchr
+                              ^
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: 'strrchr' is a builtin with type 'char *(const char *, int)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strrchr
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_43570
+
+
+Determining if the function strstr exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_267e6"
+[1/2] Building C object CMakeFiles/cmTC_267e6.dir/CheckFunctionExists.c.o
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strstr' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strstr
+                              ^
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: 'strstr' is a builtin with type 'char *(const char *, const char *)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strstr
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_267e6
+
+
+Determining if the function strtol exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_edfb4"
+[1/2] Building C object CMakeFiles/cmTC_edfb4.dir/CheckFunctionExists.c.o
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strtol' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strtol
+                              ^
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: 'strtol' is a builtin with type 'long (const char *, char **, int)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strtol
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_edfb4
+
+
+Determining if the function strtoul exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_bc78d"
+[1/2] Building C object CMakeFiles/cmTC_bc78d.dir/CheckFunctionExists.c.o
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strtoul' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strtoul
+                              ^
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: 'strtoul' is a builtin with type 'unsigned long (const char *, char **, int)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strtoul
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_bc78d
+
+
+Determining if the function strtoll exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_c4488"
+[1/2] Building C object CMakeFiles/cmTC_c4488.dir/CheckFunctionExists.c.o
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strtoll' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strtoll
+                              ^
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: 'strtoll' is a builtin with type 'long long (const char *, char **, int)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strtoll
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_c4488
+
+
+Determining if the function strtoull exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_9ab77"
+[1/2] Building C object CMakeFiles/cmTC_9ab77.dir/CheckFunctionExists.c.o
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strtoull' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strtoull
+                              ^
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: 'strtoull' is a builtin with type 'unsigned long long (const char *, char **, int)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strtoull
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_9ab77
+
+
+Determining if the function atoi exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_e86b2"
+[1/2] Building C object CMakeFiles/cmTC_e86b2.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_e86b2
+
+
+Determining if the function atof exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_961df"
+[1/2] Building C object CMakeFiles/cmTC_961df.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_961df
+
+
+Determining if the function strcmp exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_5a6c4"
+[1/2] Building C object CMakeFiles/cmTC_5a6c4.dir/CheckFunctionExists.c.o
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strcmp' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strcmp
+                              ^
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: 'strcmp' is a builtin with type 'int (const char *, const char *)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strcmp
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_5a6c4
+
+
+Determining if the function strncmp exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_5de9c"
+[1/2] Building C object CMakeFiles/cmTC_5de9c.dir/CheckFunctionExists.c.o
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strncmp' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strncmp
+                              ^
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: 'strncmp' is a builtin with type 'int (const char *, const char *, unsigned long)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strncmp
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_5de9c
+
+
+Determining if the function strcasecmp exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_235f3"
+[1/2] Building C object CMakeFiles/cmTC_235f3.dir/CheckFunctionExists.c.o
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strcasecmp' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strcasecmp
+                              ^
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: 'strcasecmp' is a builtin with type 'int (const char *, const char *)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strcasecmp
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_235f3
+
+
+Determining if the function strncasecmp exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_6cbfc"
+[1/2] Building C object CMakeFiles/cmTC_6cbfc.dir/CheckFunctionExists.c.o
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strncasecmp' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strncasecmp
+                              ^
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: 'strncasecmp' is a builtin with type 'int (const char *, const char *, unsigned long)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strncasecmp
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_6cbfc
+
+
+Determining if the function vsscanf exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_751cb"
+[1/2] Building C object CMakeFiles/cmTC_751cb.dir/CheckFunctionExists.c.o
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'vsscanf' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS vsscanf
+                              ^
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: 'vsscanf' is a builtin with type 'int (const char *restrict, const char *restrict, struct __va_list_tag *)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS vsscanf
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_751cb
+
+
+Determining if the function vsnprintf exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_64114"
+[1/2] Building C object CMakeFiles/cmTC_64114.dir/CheckFunctionExists.c.o
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'vsnprintf' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS vsnprintf
+                              ^
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: 'vsnprintf' is a builtin with type 'int (char *, unsigned long, const char *, struct __va_list_tag *)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS vsnprintf
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_64114
+
+
+Determining if the function fseeko exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_5f679"
+[1/2] Building C object CMakeFiles/cmTC_5f679.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_5f679
+
+
+Determining if the function sigaction exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_d8fdb"
+[1/2] Building C object CMakeFiles/cmTC_d8fdb.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_d8fdb
+
+
+Determining if the function setjmp exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_7bca8"
+[1/2] Building C object CMakeFiles/cmTC_7bca8.dir/CheckFunctionExists.c.o
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: warning: declaration of built-in function 'setjmp' requires inclusion of the header <setjmp.h> [-Wbuiltin-requires-header]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS setjmp
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_7bca8
+
+
+Determining if the function nanosleep exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_d7523"
+[1/2] Building C object CMakeFiles/cmTC_d7523.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_d7523
+
+
+Determining if the function sysconf exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_b9238"
+[1/2] Building C object CMakeFiles/cmTC_b9238.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_b9238
+
+
+Determining if the function getauxval exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_1cb75"
+[1/2] Building C object CMakeFiles/cmTC_1cb75.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_1cb75
+
+
+Determining if the function poll exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_922c5"
+[1/2] Building C object CMakeFiles/cmTC_922c5.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_922c5
+
+
+Determining if the function pow exists in the m passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_10c61"
+[1/2] Building C object CMakeFiles/cmTC_10c61.dir/CheckFunctionExists.c.o
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'pow' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS pow
+                              ^
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: 'pow' is a builtin with type 'double (double, double)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS pow
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_10c61
+
+
+Determining if the function atan exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_4eb7c"
+[1/2] Building C object CMakeFiles/cmTC_4eb7c.dir/CheckFunctionExists.c.o
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'atan' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS atan
+                              ^
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: 'atan' is a builtin with type 'double (double)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS atan
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_4eb7c
+
+
+Determining if the function atan2 exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_576db"
+[1/2] Building C object CMakeFiles/cmTC_576db.dir/CheckFunctionExists.c.o
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'atan2' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS atan2
+                              ^
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: 'atan2' is a builtin with type 'double (double, double)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS atan2
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_576db
+
+
+Determining if the function ceil exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_702b2"
+[1/2] Building C object CMakeFiles/cmTC_702b2.dir/CheckFunctionExists.c.o
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'ceil' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS ceil
+                              ^
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: 'ceil' is a builtin with type 'double (double)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS ceil
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_702b2
+
+
+Determining if the function copysign exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_da20c"
+[1/2] Building C object CMakeFiles/cmTC_da20c.dir/CheckFunctionExists.c.o
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'copysign' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS copysign
+                              ^
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: 'copysign' is a builtin with type 'double (double, double)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS copysign
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_da20c
+
+
+Determining if the function cos exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_62625"
+[1/2] Building C object CMakeFiles/cmTC_62625.dir/CheckFunctionExists.c.o
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'cos' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS cos
+                              ^
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: 'cos' is a builtin with type 'double (double)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS cos
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_62625
+
+
+Determining if the function cosf exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_c577f"
+[1/2] Building C object CMakeFiles/cmTC_c577f.dir/CheckFunctionExists.c.o
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'cosf' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS cosf
+                              ^
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: 'cosf' is a builtin with type 'float (float)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS cosf
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_c577f
+
+
+Determining if the function fabs exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_f8714"
+[1/2] Building C object CMakeFiles/cmTC_f8714.dir/CheckFunctionExists.c.o
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'fabs' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS fabs
+                              ^
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: 'fabs' is a builtin with type 'double (double)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS fabs
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_f8714
+
+
+Determining if the function floor exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_50c84"
+[1/2] Building C object CMakeFiles/cmTC_50c84.dir/CheckFunctionExists.c.o
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'floor' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS floor
+                              ^
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: 'floor' is a builtin with type 'double (double)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS floor
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_50c84
+
+
+Determining if the function log exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_fede1"
+[1/2] Building C object CMakeFiles/cmTC_fede1.dir/CheckFunctionExists.c.o
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'log' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS log
+                              ^
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: 'log' is a builtin with type 'double (double)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS log
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_fede1
+
+
+Determining if the function pow exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_f4bdd"
+[1/2] Building C object CMakeFiles/cmTC_f4bdd.dir/CheckFunctionExists.c.o
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'pow' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS pow
+                              ^
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: 'pow' is a builtin with type 'double (double, double)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS pow
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_f4bdd
+
+
+Determining if the function scalbn exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_b0697"
+[1/2] Building C object CMakeFiles/cmTC_b0697.dir/CheckFunctionExists.c.o
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'scalbn' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS scalbn
+                              ^
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: 'scalbn' is a builtin with type 'double (double, int)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS scalbn
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_b0697
+
+
+Determining if the function sin exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_8b4f9"
+[1/2] Building C object CMakeFiles/cmTC_8b4f9.dir/CheckFunctionExists.c.o
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'sin' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sin
+                              ^
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: 'sin' is a builtin with type 'double (double)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sin
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_8b4f9
+
+
+Determining if the function sinf exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_39953"
+[1/2] Building C object CMakeFiles/cmTC_39953.dir/CheckFunctionExists.c.o
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'sinf' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sinf
+                              ^
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: 'sinf' is a builtin with type 'float (float)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sinf
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_39953
+
+
+Determining if the function sqrt exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_f5736"
+[1/2] Building C object CMakeFiles/cmTC_f5736.dir/CheckFunctionExists.c.o
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'sqrt' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sqrt
+                              ^
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: 'sqrt' is a builtin with type 'double (double)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sqrt
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_f5736
+
+
+Determining if the function sqrtf exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_0bb76"
+[1/2] Building C object CMakeFiles/cmTC_0bb76.dir/CheckFunctionExists.c.o
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'sqrtf' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sqrtf
+                              ^
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: 'sqrtf' is a builtin with type 'float (float)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sqrtf
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_0bb76
+
+
+Determining if the function tan exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_307aa"
+[1/2] Building C object CMakeFiles/cmTC_307aa.dir/CheckFunctionExists.c.o
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'tan' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS tan
+                              ^
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: 'tan' is a builtin with type 'double (double)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS tan
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_307aa
+
+
+Determining if the function tanf exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_f71f9"
+[1/2] Building C object CMakeFiles/cmTC_f71f9.dir/CheckFunctionExists.c.o
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'tanf' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS tanf
+                              ^
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: 'tanf' is a builtin with type 'float (float)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS tanf
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_f71f9
+
+
+Determining if the function acos exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_58be3"
+[1/2] Building C object CMakeFiles/cmTC_58be3.dir/CheckFunctionExists.c.o
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'acos' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS acos
+                              ^
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: 'acos' is a builtin with type 'double (double)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS acos
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_58be3
+
+
+Determining if the function asin exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_9e007"
+[1/2] Building C object CMakeFiles/cmTC_9e007.dir/CheckFunctionExists.c.o
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'asin' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS asin
+                              ^
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: 'asin' is a builtin with type 'double (double)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS asin
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_9e007
+
+
+Determining if the include file alloca.h exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_a06d7"
+[1/2] Building C object CMakeFiles/cmTC_a06d7.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_a06d7
+
+
+Performing C SOURCE FILE Test HAVE_SA_SIGACTION succeeded with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_26fcf"
+[1/2] Building C object CMakeFiles/cmTC_26fcf.dir/src.c.o
+[2/2] Linking C executable cmTC_26fcf
+
+Source file was:
+
+#include <signal.h>
+
+int main()
+{
+   (void)sizeof(((struct sigaction *)0)->sa_sigaction);
+   return 0;
+}
+
+Determining if the function dlopen exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_dfa92"
+[1/2] Building C object CMakeFiles/cmTC_dfa92.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_dfa92
+
+
+Performing C SOURCE FILE Test HAVE_ARM_MODE succeeded with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_36e24"
+[1/2] Building C object CMakeFiles/cmTC_36e24.dir/src.c.o
+clang: warning: argument unused during compilation: '-marm' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_36e24
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test VULKAN_PASSED_ANDROID_CHECKS succeeded with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_52a6c"
+[1/2] Building C object CMakeFiles/cmTC_52a6c.dir/src.c.o
+[2/2] Linking C executable cmTC_52a6c
+
+Source file was:
+
+    #if defined(__ARM_ARCH) && __ARM_ARCH < 7
+    #error Vulkan doesn't work on this configuration
+    #endif
+    int main()
+    {
+        return 0;
+    }
+    
+Performing C SOURCE FILE Test HAVE_RECURSIVE_MUTEXES succeeded with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_60661"
+[1/2] Building C object CMakeFiles/cmTC_60661.dir/src.c.o
+[2/2] Linking C executable cmTC_60661
+
+Source file was:
+
+        #include <pthread.h>
+        int main(int argc, char **argv) {
+          pthread_mutexattr_t attr;
+          pthread_mutexattr_settype(&attr, PTHREAD_MUTEX_RECURSIVE);
+          return 0;
+        }
+Performing C SOURCE FILE Test HAVE_PTHREADS_SEM succeeded with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_c77dd"
+[1/2] Building C object CMakeFiles/cmTC_c77dd.dir/src.c.o
+[2/2] Linking C executable cmTC_c77dd
+
+Source file was:
+#include <pthread.h>
+                                 #include <semaphore.h>
+                                 int main(int argc, char **argv) { return 0; }
+Performing C SOURCE FILE Test HAVE_SEM_TIMEDWAIT succeeded with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_fe555"
+[1/2] Building C object CMakeFiles/cmTC_fe555.dir/src.c.o
+[2/2] Linking C executable cmTC_fe555
+
+Source file was:
+
+              #include <pthread.h>
+              #include <semaphore.h>
+              int main(int argc, char **argv) {
+                  sem_timedwait(NULL, NULL);
+                  return 0;
+              }
+Determining if the function pthread_setname_np exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_295b1"
+[1/2] Building C object CMakeFiles/cmTC_295b1.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_295b1
+
+
+Determining size of long passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_80e37"
+[1/2] Building C object CMakeFiles/cmTC_80e37.dir/SIZEOF_LONG.c.o
+[2/2] Linking C executable cmTC_80e37
+
+
+Determining size of long long passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_f6eaa"
+[1/2] Building C object CMakeFiles/cmTC_f6eaa.dir/SIZEOF_LONG_LONG.c.o
+[2/2] Linking C executable cmTC_f6eaa
+
+
+Performing C SOURCE FILE Test HAVE_STD_C11 succeeded with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_6fddc"
+[1/2] Building C object CMakeFiles/cmTC_6fddc.dir/src.c.o
+[2/2] Linking C executable cmTC_6fddc
+
+Source file was:
+int main(void) { return 0; }
+Performing C++ SOURCE FILE Test HAVE_STD_CXX11 succeeded with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_5ee17"
+[1/2] Building CXX object CMakeFiles/cmTC_5ee17.dir/src.cxx.o
+[2/2] Linking CXX executable cmTC_5ee17
+
+Source file was:
+int main() { return 0; }
+Determining if the posix_memalign exist passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_6bef9"
+[1/2] Building C object CMakeFiles/cmTC_6bef9.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_6bef9
+
+File /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_memalign
+  return ((int*)(&posix_memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test HAVE_STRUCT_TIMESPEC succeeded with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_29226"
+[1/2] Building C object CMakeFiles/cmTC_29226.dir/src.c.o
+[2/2] Linking C executable cmTC_29226
+
+Source file was:
+
+#include <time.h>
+
+int main()
+{
+   (void)sizeof(((struct timespec *)0)->tv_sec);
+   return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_LIBATOMIC succeeded with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_de0cf"
+[1/2] Building C object CMakeFiles/cmTC_de0cf.dir/src.c.o
+[2/2] Linking C executable cmTC_de0cf
+
+Source file was:
+#include <stdatomic.h>
+int _Atomic foo = ATOMIC_VAR_INIT(0);
+int main()
+{
+    return atomic_fetch_add(&foo, 2);
+}
+Determining if the function __android_log_print exists in the log passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_3766b"
+[1/2] Building C object CMakeFiles/cmTC_3766b.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_3766b
+
+
+Performing C SOURCE FILE Test HAVE_C99_BOOL succeeded with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_8bdbb"
+[1/2] Building C object CMakeFiles/cmTC_8bdbb.dir/src.c.o
+[2/2] Linking C executable cmTC_8bdbb
+
+Source file was:
+int main(int argc, char *argv[])
+ {
+     volatile _Bool ret;
+     ret = (argc > 1) ? 1 : 0;
+     return ret ? -1 : 0;
+ }
+Performing C SOURCE FILE Test HAVE_C11_STATIC_ASSERT succeeded with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_80ac3"
+[1/2] Building C object CMakeFiles/cmTC_80ac3.dir/src.c.o
+[2/2] Linking C executable cmTC_80ac3
+
+Source file was:
+int main()
+ {
+     _Static_assert(sizeof(int) == sizeof(int), "What");
+     return 0;
+ }
+Performing C SOURCE FILE Test HAVE_C11_ALIGNAS succeeded with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_b6d77"
+[1/2] Building C object CMakeFiles/cmTC_b6d77.dir/src.c.o
+[2/2] Linking C executable cmTC_b6d77
+
+Source file was:
+_Alignas(16) int foo;
+ int main()
+ {
+     return 0;
+ }
+Performing C SOURCE FILE Test HAVE_C11_ATOMIC succeeded with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_cc6d5"
+[1/2] Building C object CMakeFiles/cmTC_cc6d5.dir/src.c.o
+[2/2] Linking C executable cmTC_cc6d5
+
+Source file was:
+#include <stdatomic.h>
+ int _Atomic foo = ATOMIC_VAR_INIT(0);
+ int main()
+ {
+     atomic_fetch_add(&foo, 2);
+     return 0;
+ }
+Performing C SOURCE FILE Test HAVE_W_EXTRA succeeded with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_229ec"
+[1/2] Building C object CMakeFiles/cmTC_229ec.dir/src.c.o
+[2/2] Linking C executable cmTC_229ec
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_FNO_MATH_ERRNO succeeded with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_19e41"
+[1/2] Building C object CMakeFiles/cmTC_19e41.dir/src.c.o
+[2/2] Linking C executable cmTC_19e41
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_DESTRUCTOR succeeded with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_e6adb"
+[1/2] Building C object CMakeFiles/cmTC_e6adb.dir/src.c.o
+[2/2] Linking C executable cmTC_e6adb
+
+Source file was:
+int foo() __attribute__((destructor));
+                             int main() {return 0;}
+Performing C SOURCE FILE Test HAVE_GCC_PROTECTED_VISIBILITY succeeded with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_0836b"
+[1/2] Building C object CMakeFiles/cmTC_0836b.dir/src.c.o
+[2/2] Linking C executable cmTC_0836b
+
+Source file was:
+int foo() __attribute__((visibility("protected")));
+                             int main() {return 0;}
+Performing C SOURCE FILE Test HAVE_VISIBILITY_HIDDEN_SWITCH succeeded with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_2a579"
+[1/2] Building C object CMakeFiles/cmTC_2a579.dir/src.c.o
+[2/2] Linking C executable cmTC_2a579
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_ATTRIBUTE_ALIGNED succeeded with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_de17f"
+[1/2] Building C object CMakeFiles/cmTC_de17f.dir/src.c.o
+[2/2] Linking C executable cmTC_de17f
+
+Source file was:
+int foo __attribute__((aligned(16)));
+                             int main() {return 0;}
+Performing C SOURCE FILE Test HAVE___BUILTIN_ASSUME_ALIGNED succeeded with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_c938a"
+[1/2] Building C object CMakeFiles/cmTC_c938a.dir/src.c.o
+[2/2] Linking C executable cmTC_c938a
+
+Source file was:
+
+int main()
+{
+    float *ptr;
+    ptr = __builtin_assume_aligned(ptr, 16);
+    return 0;
+}
+Performing C SOURCE FILE Test HAVE_MSSE_SWITCH succeeded with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_1c52e"
+[1/2] Building C object CMakeFiles/cmTC_1c52e.dir/src.c.o
+[2/2] Linking C executable cmTC_1c52e
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_MSSE2_SWITCH succeeded with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_1429b"
+[1/2] Building C object CMakeFiles/cmTC_1429b.dir/src.c.o
+[2/2] Linking C executable cmTC_1429b
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_MSSE3_SWITCH succeeded with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_7fe8f"
+[1/2] Building C object CMakeFiles/cmTC_7fe8f.dir/src.c.o
+[2/2] Linking C executable cmTC_7fe8f
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_MSSE4_1_SWITCH succeeded with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_4d773"
+[1/2] Building C object CMakeFiles/cmTC_4d773.dir/src.c.o
+[2/2] Linking C executable cmTC_4d773
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_MFPU_NEON_SWITCH succeeded with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_7994f"
+[1/2] Building C object CMakeFiles/cmTC_7994f.dir/src.c.o
+clang: warning: argument unused during compilation: '-mfpu=neon' [-Wunused-command-line-argument]
+[2/2] Linking C executable cmTC_7994f
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_GCC_FORMAT succeeded with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_2707a"
+[1/2] Building C object CMakeFiles/cmTC_2707a.dir/src.c.o
+[2/2] Linking C executable cmTC_2707a
+
+Source file was:
+int foo(const char *str, ...) __attribute__((format(printf, 1, 2)));
+                         int main() {return 0;}
+Determining if the include file stdbool.h exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_af859"
+[1/2] Building C object CMakeFiles/cmTC_af859.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_af859
+
+
+Determining if the include file stdalign.h exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_e638f"
+[1/2] Building C object CMakeFiles/cmTC_e638f.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_e638f
+
+
+Determining if the include file dirent.h exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_156db"
+[1/2] Building C object CMakeFiles/cmTC_156db.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_156db
+
+
+Determining if the include file cpuid.h exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_b90da"
+[1/2] Building C object CMakeFiles/cmTC_b90da.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_b90da
+
+
+Determining if the include file sys/sysconf.h exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_3ec6b"
+[1/2] Building C object CMakeFiles/cmTC_3ec6b.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_3ec6b
+
+
+Determining if the include file fenv.h exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_59d69"
+[1/2] Building C object CMakeFiles/cmTC_59d69.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_59d69
+
+
+Determining if the include file float.h exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_4af82"
+[1/2] Building C object CMakeFiles/cmTC_4af82.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_4af82
+
+
+Determining if the function dlopen exists in the dl passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_096cd"
+[1/2] Building C object CMakeFiles/cmTC_096cd.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_096cd
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_35510"
+[1/2] Building C object CMakeFiles/cmTC_35510.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_35510
+
+
+Performing C SOURCE FILE Test HAVE_GCC_GET_CPUID succeeded with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_5c3b7"
+[1/2] Building C object CMakeFiles/cmTC_5c3b7.dir/src.c.o
+[2/2] Linking C executable cmTC_5c3b7
+
+Source file was:
+#include <cpuid.h>
+        int main()
+        {
+            unsigned int eax, ebx, ecx, edx;
+            return __get_cpuid(0, &eax, &ebx, &ecx, &edx);
+        }
+Determining if the posix_memalign exist passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_42891"
+[1/2] Building C object CMakeFiles/cmTC_42891.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_42891
+
+File /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef posix_memalign
+  return ((int*)(&posix_memalign))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the lrintf exist passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_082b1"
+[1/2] Building C object CMakeFiles/cmTC_082b1.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_082b1
+
+File /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef lrintf
+  return ((int*)(&lrintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the modff exist passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_3c25b"
+[1/2] Building C object CMakeFiles/cmTC_3c25b.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_3c25b
+
+File /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef modff
+  return ((int*)(&modff))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the log2f exist passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_00375"
+[1/2] Building C object CMakeFiles/cmTC_00375.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_00375
+
+File /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef log2f
+  return ((int*)(&log2f))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the cbrtf exist passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_0a63f"
+[1/2] Building C object CMakeFiles/cmTC_0a63f.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_0a63f
+
+File /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef cbrtf
+  return ((int*)(&cbrtf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the copysignf exist passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_fa8a3"
+[1/2] Building C object CMakeFiles/cmTC_fa8a3.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_fa8a3
+
+File /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef copysignf
+  return ((int*)(&copysignf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function stat exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_38a89"
+[1/2] Building C object CMakeFiles/cmTC_38a89.dir/CheckFunctionExists.c.o
+[2/2] Linking C executable cmTC_38a89
+
+
+Determining if the function strtof exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_97c70"
+[1/2] Building C object CMakeFiles/cmTC_97c70.dir/CheckFunctionExists.c.o
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'strtof' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strtof
+                              ^
+/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CheckFunctionExists.c:7:3: note: 'strtof' is a builtin with type 'float (const char *, char **)'
+<command line>:3:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS strtof
+                              ^
+1 warning generated.
+[2/2] Linking C executable cmTC_97c70
+
+
+Determining if the strnlen exist passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_d5d9b"
+[1/2] Building C object CMakeFiles/cmTC_d5d9b.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_d5d9b
+
+File /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strnlen
+  return ((int*)(&strnlen))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the snprintf exist passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_79c31"
+[1/2] Building C object CMakeFiles/cmTC_79c31.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_79c31
+
+File /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef snprintf
+  return ((int*)(&snprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the isfinite exist passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_c9dd8"
+[1/2] Building C object CMakeFiles/cmTC_c9dd8.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_c9dd8
+
+File /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isfinite
+  return ((int*)(&isfinite))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the isnan exist passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_83013"
+[1/2] Building C object CMakeFiles/cmTC_83013.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_83013
+
+File /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isnan
+  return ((int*)(&isnan))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the gettimeofday exist passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_2a2d9"
+[1/2] Building C object CMakeFiles/cmTC_2a2d9.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_2a2d9
+
+File /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/time.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef gettimeofday
+  return ((int*)(&gettimeofday))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_74d4e"
+[1/2] Building C object CMakeFiles/cmTC_74d4e.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_74d4e
+
+
+Performing C SOURCE FILE Test HAVE_PTHREAD succeeded with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_3a650"
+[1/2] Building C object CMakeFiles/cmTC_3a650.dir/src.c.o
+[2/2] Linking C executable cmTC_3a650
+
+Source file was:
+int main(void) { return 0; }
+Determining if the pthread_setschedparam exist passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_064ab"
+[1/2] Building C object CMakeFiles/cmTC_064ab.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_064ab
+
+File /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_setschedparam
+  return ((int*)(&pthread_setschedparam))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the pthread_mutex_timedlock exist passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_612eb"
+[1/2] Building C object CMakeFiles/cmTC_612eb.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_612eb
+
+File /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_mutex_timedlock
+  return ((int*)(&pthread_mutex_timedlock))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the getopt exist passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_bad64"
+[1/2] Building C object CMakeFiles/cmTC_bad64.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_bad64
+
+File /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <unistd.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getopt
+  return ((int*)(&getopt))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file xmmintrin.h exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_09248"
+[1/2] Building C object CMakeFiles/cmTC_09248.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_09248
+
+
+Determining if the include file emmintrin.h exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_e67fc"
+[1/2] Building C object CMakeFiles/cmTC_e67fc.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_e67fc
+
+
+Determining if the include file pmmintrin.h exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_197c4"
+[1/2] Building C object CMakeFiles/cmTC_197c4.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_197c4
+
+
+Determining if the include file smmintrin.h exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_fb3cc"
+[1/2] Building C object CMakeFiles/cmTC_fb3cc.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_fb3cc
+
+
+Determining if files SLES/OpenSLES.h;SLES/OpenSLES_Android.h exist passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_0819f"
+[1/2] Building C object CMakeFiles/cmTC_0819f.dir/CheckIncludeFiles.c.o
+[2/2] Linking C executable cmTC_0819f
+
+
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_338f6"
+[1/2] Building C object CMakeFiles/cmTC_338f6.dir/CheckIncludeFile.c.o
+[2/2] Linking C executable cmTC_338f6
+
+
+Determining if the pthread_create exist passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_e9f04"
+[1/2] Building C object CMakeFiles/cmTC_e9f04.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_e9f04
+
+File /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+

@@ -1,0 +1,127 @@
+{
+  "buildFiles": [
+    "/Users/qkdreyer/Dev/heaps-android/openal-soft/cmake/FindSDL2.cmake",
+    "/Users/qkdreyer/Dev/heaps-android/sdl2/SDL2.spec.in",
+    "/Users/qkdreyer/Dev/heaps-android/openal-soft/cmake/FindQSA.cmake",
+    "/Users/qkdreyer/Dev/heaps-android/sdl2/sdl2-config.in",
+    "/Users/qkdreyer/Dev/heaps-android/openal-soft/cmake/FindJACK.cmake",
+    "/Users/qkdreyer/Dev/heaps-android/openal-soft/openal.pc.in",
+    "/Users/qkdreyer/Dev/heaps-android/CMakeLists.txt",
+    "/Users/qkdreyer/Dev/heaps-android/../../Library/Android/sdk/ndk/21.3.6528147/build/cmake/android.toolchain.cmake",
+    "/Users/qkdreyer/Dev/heaps-android/sdl2/sdl2.pc.in",
+    "/Users/qkdreyer/Dev/heaps-android/sdl2/include/SDL_config.h.cmake",
+    "/Users/qkdreyer/Dev/heaps-android/sdl2/cmake_uninstall.cmake.in",
+    "/Users/qkdreyer/Dev/heaps-android/sdl2/cmake/macros.cmake",
+    "/Users/qkdreyer/Dev/heaps-android/openal-soft/cmake/CheckFileOffsetBits.c",
+    "/Users/qkdreyer/Dev/heaps-android/openal-soft/cmake/FindALSA.cmake",
+    "/Users/qkdreyer/Dev/heaps-android/../../Library/Android/sdk/ndk/21.3.6528147/build/cmake/platforms.cmake",
+    "/Users/qkdreyer/Dev/heaps-android/openal-soft/cmake/CheckSharedFunctionExists.cmake",
+    "/Users/qkdreyer/Dev/heaps-android/openal-soft/CMakeLists.txt",
+    "/Users/qkdreyer/Dev/heaps-android/openal-soft/cmake/FindPortAudio.cmake",
+    "/Users/qkdreyer/Dev/heaps-android/openal-soft/cmake/FindOSS.cmake",
+    "/Users/qkdreyer/Dev/heaps-android/sdl2/cmake/sdlchecks.cmake",
+    "/Users/qkdreyer/Dev/heaps-android/openal-soft/cmake/FindAudioIO.cmake",
+    "/Users/qkdreyer/Dev/heaps-android/openal-soft/cmake/FindSoundIO.cmake",
+    "/Users/qkdreyer/Dev/heaps-android/openal-soft/cmake/FindPulseAudio.cmake",
+    "/Users/qkdreyer/Dev/heaps-android/openal-soft/config.h.in",
+    "/Users/qkdreyer/Dev/heaps-android/openal-soft/cmake/CheckFileOffsetBits.cmake",
+    "/Users/qkdreyer/Dev/heaps-android/sdl2/CMakeLists.txt",
+    "/Users/qkdreyer/Dev/heaps-android/openal-nativetools/CMakeLists.txt",
+    "/Users/qkdreyer/Dev/heaps-android/openal-soft/utils/alsoft-config/CMakeLists.txt"
+  ],
+  "cleanCommands": [
+    "/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64 --target clean"
+  ],
+  "libraries": {
+    "ui.hdll-Release-x86_64": {
+      "artifactName": "ui.hdll",
+      "buildCommand": "/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64 --target ui.hdll",
+      "abi": "x86_64",
+      "output": "/Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/libui.hdll.a"
+    },
+    "altonegen-Release-x86_64": {
+      "artifactName": "altonegen",
+      "buildCommand": "/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64 --target altonegen",
+      "abi": "x86_64",
+      "output": "/Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/openal-soft/altonegen"
+    },
+    "openal-info-Release-x86_64": {
+      "artifactName": "openal-info",
+      "buildCommand": "/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64 --target openal-info",
+      "abi": "x86_64",
+      "output": "/Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/openal-soft/openal-info"
+    },
+    "OpenAL-Release-x86_64": {
+      "artifactName": "OpenAL",
+      "buildCommand": "/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64 --target OpenAL",
+      "abi": "x86_64",
+      "output": "/Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/build/intermediates/cmake/release/obj/x86_64/libopenal.so"
+    },
+    "hl-Release-x86_64": {
+      "artifactName": "hl",
+      "buildCommand": "/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64 --target hl",
+      "abi": "x86_64",
+      "output": "/Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/libhl.a"
+    },
+    "openal.hdll-Release-x86_64": {
+      "artifactName": "openal.hdll",
+      "buildCommand": "/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64 --target openal.hdll",
+      "abi": "x86_64",
+      "output": "/Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/libopenal.hdll.a"
+    },
+    "heapsapp-Release-x86_64": {
+      "artifactName": "heapsapp",
+      "buildCommand": "/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64 --target heapsapp",
+      "abi": "x86_64",
+      "output": "/Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/build/intermediates/cmake/release/obj/x86_64/libheapsapp.so"
+    },
+    "common-Release-x86_64": {
+      "artifactName": "common",
+      "buildCommand": "/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64 --target common",
+      "abi": "x86_64",
+      "output": "/Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/openal-soft/libcommon.a"
+    },
+    "SDL2main-Release-x86_64": {
+      "artifactName": "SDL2main",
+      "buildCommand": "/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64 --target SDL2main",
+      "abi": "x86_64",
+      "output": "/Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/sdl2/libSDL2main.a"
+    },
+    "fmt.hdll-Release-x86_64": {
+      "artifactName": "fmt.hdll",
+      "buildCommand": "/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64 --target fmt.hdll",
+      "abi": "x86_64",
+      "output": "/Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/libfmt.hdll.a"
+    },
+    "makehrtf-Release-x86_64": {
+      "artifactName": "makehrtf",
+      "buildCommand": "/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64 --target makehrtf",
+      "abi": "x86_64",
+      "output": "/Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/openal-soft/makehrtf"
+    },
+    "SDL2-Release-x86_64": {
+      "artifactName": "SDL2",
+      "buildCommand": "/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64 --target SDL2",
+      "abi": "x86_64",
+      "output": "/Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/build/intermediates/cmake/release/obj/x86_64/libSDL2.so"
+    },
+    "sdl.hdll-Release-x86_64": {
+      "artifactName": "sdl.hdll",
+      "buildCommand": "/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64 --target sdl.hdll",
+      "abi": "x86_64",
+      "output": "/Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/libsdl.hdll.a"
+    },
+    "SDL2-static-Release-x86_64": {
+      "artifactName": "SDL2-static",
+      "buildCommand": "/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64 --target SDL2-static",
+      "abi": "x86_64",
+      "output": "/Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/sdl2/libSDL2.a"
+    },
+    "alrecord-Release-x86_64": {
+      "artifactName": "alrecord",
+      "buildCommand": "/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake --build /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64 --target alrecord",
+      "abi": "x86_64",
+      "output": "/Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/release/x86_64/openal-soft/alrecord"
+    }
+  }
+}

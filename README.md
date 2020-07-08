@@ -13,6 +13,6 @@ make init
 ## Usage
 
 ```sh
-make heaps-world
+make demo
 make # make build && make install
 ```

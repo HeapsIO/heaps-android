@@ -1,0 +1,18 @@
+Determining if the slCreateEngine exist in OpenSLES passed with the following output:
+Change Dir: /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/debug/x86/openal-soft/CMakeFiles/CMakeTmp
+
+Run Build Command:"/Users/qkdreyer/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja" "cmTC_b56b7"
+[1/2] Building C object CMakeFiles/cmTC_b56b7.dir/CheckSymbolExists.c.o
+[2/2] Linking C executable cmTC_b56b7
+
+File /Users/qkdreyer/Dev/heaps-android/heaps-android-app/heapsapp/.externalNativeBuild/cmake/debug/x86/openal-soft/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <SLES/OpenSLES.h>
+
+void cmakeRequireSymbol(int dummy,...){(void)dummy;}
+int main()
+{
+  cmakeRequireSymbol(0,&slCreateEngine);
+  return 0;
+}
+

@@ -1,9 +1,10 @@
-.PHONY: all init build install clean heaps-world
+.PHONY: all init build install clean demo
 
 all: build install
 
 init:
 ifeq ($(OS),Windows_NT)
+	powershell ./hashlink.ps1 1.11.0
 	choco install --no-progress haxe openal ffmpeg android-sdk android-ndk
 else ifeq ($(shell uname -s),Darwin)
 	brew install haxe
@@ -17,7 +18,6 @@ endif
 	make gen-local
 
 build:
-	CMD=buildDebug make gradle
 	CMD=assembleDebug make gradle
 
 install:
@@ -38,10 +38,10 @@ gen-local:
 	echo "sdk.dir=$(HOME)/Library/Android/sdk" > heaps-android-app/local.properties
 endif
 
-heaps-world: heaps-world-hl heaps-world-pak
+demo: demo-hl demo-pak
 
-heaps-world-hl:
+demo-hl:
 	cd heaps/samples && haxelib install --always ../../config/main.hxml && haxe -hl ../../out/main.c ../../config/main.hxml
 
-heaps-world-pak:
+demo-pak:
 	cd heaps/samples && haxe -hl ../../out/pak.hl ../../config/pak.hxml && hl ../../out/pak.hl -out ../../out/res

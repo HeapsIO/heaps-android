@@ -14,7 +14,7 @@ jobs:
       with:
         submodules: true
     - run: make init
-    - run: make heaps-world
+    - run: make demo
     - run: make build
     - uses: actions/upload-artifact@v2
       with:
