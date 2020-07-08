@@ -4,7 +4,7 @@ all: build install
 
 init:
 ifeq ($(OS),Windows_NT)
-	choco install haxe openal ffmpeg android-sdk android-ndk
+	choco install --no-progress haxe openal ffmpeg android-sdk android-ndk
 else ifeq ($(shell uname -s),Darwin)
 	brew install haxe
 	brew bundle install --file hashlink/Brewfile --no-lock
