@@ -1307,8 +1307,8 @@ ADD_CUSTOM_TARGET(native-tools
 
 ]]
 
-file(COPY ${OpenAL_SOURCE_DIR}/../openal-nativetools/bin2h.exe DESTINATION ${NATIVE_BIN_DIR})
-file(COPY ${OpenAL_SOURCE_DIR}/../openal-nativetools/bsincgen.exe DESTINATION ${NATIVE_BIN_DIR})
+file(COPY ${OpenAL_SOURCE_DIR}/../openal-nativetools/bin2h DESTINATION ${NATIVE_BIN_DIR})
+file(COPY ${OpenAL_SOURCE_DIR}/../openal-nativetools/bsincgen DESTINATION ${NATIVE_BIN_DIR})
 
 option(ALSOFT_EMBED_HRTF_DATA "Embed the HRTF data files (increases library footprint)" ON)
 if(ALSOFT_EMBED_HRTF_DATA)
@@ -1578,7 +1578,7 @@ ENDIF()
 IF(ALSOFT_UTILS)
     ADD_EXECUTABLE(openal-info utils/openal-info.c)
     TARGET_COMPILE_OPTIONS(openal-info PRIVATE ${C_FLAGS})
-    TARGET_LINK_LIBRARIES(openal-info PRIVATE ${LINKER_FLAGS} OpenAL)
+    TARGET_LINK_LIBRARIES(openal-info PRIVATE ${LINKER_FLAGS} OpenAL OpenSLES log)
 
     SET(MAKEHRTF_SRCS  utils/makehrtf.c)
     IF(NOT HAVE_GETOPT)
@@ -1612,7 +1612,7 @@ IF(ALSOFT_TESTS)
     ADD_EXECUTABLE(altonegen examples/altonegen.c ${TEST_COMMON_OBJS})
     TARGET_COMPILE_DEFINITIONS(altonegen PRIVATE ${CPP_DEFS})
     TARGET_COMPILE_OPTIONS(altonegen PRIVATE ${C_FLAGS})
-    TARGET_LINK_LIBRARIES(altonegen PRIVATE ${LINKER_FLAGS} common OpenAL ${MATH_LIB})
+    TARGET_LINK_LIBRARIES(altonegen PRIVATE ${LINKER_FLAGS} common OpenAL OpenSLES log ${MATH_LIB})
 
     IF(ALSOFT_INSTALL)
         INSTALL(TARGETS altonegen
@@ -1630,7 +1630,7 @@ IF(ALSOFT_EXAMPLES)
     ADD_EXECUTABLE(alrecord examples/alrecord.c)
     TARGET_COMPILE_DEFINITIONS(alrecord PRIVATE ${CPP_DEFS})
     TARGET_COMPILE_OPTIONS(alrecord PRIVATE ${C_FLAGS})
-    TARGET_LINK_LIBRARIES(alrecord PRIVATE ${LINKER_FLAGS} common OpenAL)
+    TARGET_LINK_LIBRARIES(alrecord PRIVATE ${LINKER_FLAGS} common OpenAL OpenSLES log)
 
     IF(ALSOFT_INSTALL)
         INSTALL(TARGETS alrecord
