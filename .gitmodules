@@ -11,3 +11,6 @@
 [submodule "openal-soft"]
 	path = openal-soft
 	url = https://github.com/kcat/openal-soft.git
+[submodule "libuv"]
+	path = libuv
+	url = https://github.com/libuv/libuv.git
