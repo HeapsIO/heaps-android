@@ -51,7 +51,7 @@ file(GLOB tj_include libjpeg-turbo/jni/vendor/libjpeg-turbo/libjpeg-turbo-*)
 target_link_libraries(fmt.hdll ${TJ_LIB})
 target_compile_definitions(fmt.hdll PRIVATE PNG_ARM_NEON_OPT=0) #disable Neon support for now
 
-target_include_directories(fmt.hdll PRIVATE 
+target_include_directories(fmt.hdll PRIVATE
 	hashlink/include/png
 	hashlink/include/mikktspace
 	hashlink/include/vorbis
@@ -81,8 +81,16 @@ target_link_libraries(openal.hdll OpenAL)
 file(GLOB ui hashlink/libs/ui/ui_stub.c)
 add_library(ui.hdll STATIC ${ui})
 
+# LibUV
+
+add_subdirectory(libuv)
+file(GLOB libuv hashlink/libs/openal/*.c)
+add_library(uv.hdll STATIC ${libuv})
+target_include_directories(uv.hdll PUBLIC libuv/include)
+target_link_libraries(uv.hdll libuv)
+
 # Heaps Application
 
 add_library(heapsapp SHARED out/main.c )
 target_include_directories(heapsapp PRIVATE out)
-target_link_libraries(heapsapp hl sdl.hdll fmt.hdll openal.hdll ui.hdll)
+target_link_libraries(heapsapp hl sdl.hdll fmt.hdll openal.hdll ui.hdll uv.hdll)
